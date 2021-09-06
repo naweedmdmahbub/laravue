@@ -13,6 +13,7 @@ Vue.use(Router);
 import Layout from '@/layout';
 
 /* Router for modules */
+import brandRoutes from './modules/brand';
 import elementUiRoutes from './modules/element-ui';
 import componentRoutes from './modules/components';
 import chartsRoutes from './modules/charts';
@@ -140,6 +141,7 @@ export const asyncRoutes = [
   chartsRoutes,
   nestedRoutes,
   tableRoutes,
+  brandRoutes,
   adminRoutes,
   {
     path: '/theme',
